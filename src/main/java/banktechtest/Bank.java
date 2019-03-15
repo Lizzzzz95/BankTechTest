@@ -2,7 +2,7 @@ package banktechtest;
 
 class Bank {
 
-    private double currentBalance;
+    double currentBalance;
 
     Bank(double balance){
         currentBalance = balance;
