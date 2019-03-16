@@ -23,4 +23,9 @@ class PersonTest {
         assertEquals(person.deposit(testAmount, bank), (testBalance + testAmount));
     }
 
+    @Test
+    void a_person_can_make_a_withdrawal(){
+        assertEquals(person.withdraw(testAmount, bank), (testBalance - testAmount));
+    }
+
 }
